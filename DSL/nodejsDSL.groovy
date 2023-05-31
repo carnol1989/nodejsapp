@@ -10,7 +10,7 @@ job('Aplicacion Node.js DSL') {
         scm('H/7 * * * *')
     }
     wrappers {
-        nodejs('nodejs 14.8.0')
+        nodejs('nodejs')
     }
     steps {
         shell("npm install")
