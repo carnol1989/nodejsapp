@@ -10,7 +10,7 @@ job('Aplicacion Node.js DSL') {
         scm('H/7 * * * *')
     }
     wrappers {
-        nodejs('nodejs')
+        nodejs('udemy-nodejs')
     }
     steps {
         shell("npm install")
